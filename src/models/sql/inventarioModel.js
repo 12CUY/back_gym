@@ -1,5 +1,5 @@
-const { sequelize, DataTypes } = require('../sql/index');
-
+const { sequelize, Sequelize } = require('../../config/database');
+const DataTypes = Sequelize.DataTypes;
 
 const Inventario = sequelize.define('Inventario', {
   id_inventario: {

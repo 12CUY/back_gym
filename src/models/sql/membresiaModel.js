@@ -1,6 +1,5 @@
-const { sequelize, DataTypes } = require('../sql/index');
-
-
+const { sequelize, Sequelize } = require('../../config/database');
+const DataTypes = Sequelize.DataTypes;
 const Membresia = sequelize.define('Membresia', {
   id_membresia: {
     type: DataTypes.INTEGER,

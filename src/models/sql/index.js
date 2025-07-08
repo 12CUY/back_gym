@@ -1,4 +1,6 @@
-const { sequelize, DataTypes } = require('../../../config/database.sql');
+// Corrección en la ruta de importación de database
+const { sequelize } = require('../config/database'); // Ahora es relativa a models/
+const { DataTypes } = require('sequelize');
 
 const Rol = require('./rolModel');
 const Usuario = require('./usuarioModel');
