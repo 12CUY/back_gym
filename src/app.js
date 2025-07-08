@@ -1,10 +1,12 @@
-require('dotenv').config();
+// src/app.js
+require('dotenv').config(); // Asegúrate de que esto esté al principio para cargar las variables de entorno
 const express = require('express');
 
-// Importación CORRECTA según estructura recomendada
-const config = require('./config/keys'); 
+// Importación CORRECTA según estructura de carpetas
+const config = require('./config/keys');
 const { sequelize, testConnection } = require('./config/database');
-const { definirAsociaciones } = require('./models/index');
+const { definirAsociaciones } = require('./models/sql/index'); // <--- CORRECCIÓN AQUÍ
+
 const app = express();
 
 // Middlewares básicos
@@ -21,13 +23,13 @@ const initializeDatabase = async () => {
     }
 
     // Configurar asociaciones
-    definirAsociaciones();
+    definirAsociaciones(); // Llama a la función para establecer las asociaciones
 
     // Sincronizar modelos
     console.log('⏳ Sincronizando modelos con la base de datos...');
     await sequelize.sync({
-      alter: config.MODE_ENV === 'development',
-      force: false
+      alter: config.MODE_ENV === 'development', // 'alter' intentará modificar tablas para que coincidan con los cambios del modelo
+      force: false // Establece a 'true' SÓLO para desarrollo si quieres borrar y recrear tablas en cada reinicio
     });
     console.log('✅ Base de datos inicializada correctamente');
   } catch (error) {
@@ -47,7 +49,7 @@ app.get('/', (req, res) => {
 
 // Iniciar servidor
 const startServer = async () => {
-  await initializeDatabase();
+  await initializeDatabase(); // Asegura que la base de datos se inicialice antes de iniciar el servidor
 
   const PORT = config.PORT || 3000;
   app.listen(PORT, () => {

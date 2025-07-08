@@ -1,7 +1,8 @@
+// src/config/keys.js
 module.exports = {
   PORT: process.env.PORT || 3000,
   MODE_ENV: process.env.NODE_ENV || 'development',
-  
+
   // MySQL
   MySQL: {
     HOST: process.env.DB_HOST || 'localhost',

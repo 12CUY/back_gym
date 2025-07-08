@@ -1,3 +1,4 @@
+// src/config/database.js
 const { Sequelize } = require('sequelize');
 const config = require('./keys'); // Ahora busca en el mismo directorio
 
@@ -8,7 +9,7 @@ const sequelize = new Sequelize(
   {
     host: config.MySQL.HOST,
     dialect: 'mysql',
-    logging: console.log,
+    logging: console.log, // Bueno para depurar las consultas SQL
     pool: {
       max: 5,
       min: 0,
@@ -32,5 +33,5 @@ const testConnection = async () => {
 module.exports = {
   sequelize,
   testConnection,
-  Sequelize
+  Sequelize // Exportar la clase Sequelize podría ser útil en algunos casos
 };

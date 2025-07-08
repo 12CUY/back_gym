@@ -1,27 +1,26 @@
-const { sequelize, Sequelize } = require('../../config/database');
-const DataTypes = Sequelize.DataTypes;
+// src/models/sql/rolModel.js
+const { DataTypes } = require('sequelize');
+const { sequelize } = require('../../config/database'); // <--- CORRECCIÓN AQUÍ (dos niveles arriba)
 
 const Rol = sequelize.define('Rol', {
-  id_rol: {
+  id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true
   },
-  nombre_rol: {
+  nombre: {
     type: DataTypes.STRING(50),
     allowNull: false,
-    unique: true,
-    validate: {
-      isIn: [['Administrador', 'Recepcionista', 'Entrenador', 'Cliente']]
-    }
+    unique: true
   },
   descripcion: {
-    type: DataTypes.TEXT,
+    type: DataTypes.STRING(255),
     allowNull: true
-  }
+  },
+  // Agrega otros campos para el modelo Rol si los tienes
 }, {
-  tableName: 'roles',
-  timestamps: false
+  tableName: 'roles', // Opcional: especifica el nombre de la tabla
+  timestamps: true // Añade los campos createdAt y updatedAt automáticamente
 });
 
 module.exports = Rol;
