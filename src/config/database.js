@@ -1,6 +1,6 @@
-// src/config/database.js
 const { Sequelize } = require('sequelize');
-const config = require('./keys'); // Ahora busca en el mismo directorio
+const config = require('./keys');
+const logger = require('../utils/logger');
 
 const sequelize = new Sequelize(
   config.MySQL.DATABASE,
@@ -9,23 +9,40 @@ const sequelize = new Sequelize(
   {
     host: config.MySQL.HOST,
     dialect: 'mysql',
-    logging: console.log, // Bueno para depurar las consultas SQL
+    logging: (msg, duration) => logger.sql(msg, duration),
     pool: {
       max: 5,
       min: 0,
       acquire: 30000,
       idle: 10000
+    },
+    define: {
+      timestamps: true,
+      underscored: true
     }
   }
 );
 
+// Middleware para eventos de conexión
+sequelize.addHook('afterConnect', (connection) => {
+  logger.info('Nueva conexión establecida con la base de datos');
+});
+
+sequelize.addHook('afterDisconnect', (connection) => {
+  logger.warn('Conexión con la base de datos cerrada');
+});
+
 const testConnection = async () => {
   try {
     await sequelize.authenticate();
-    console.log('✅ Conexión a MySQL establecida correctamente');
+    logger.info('✅ Conexión a MySQL establecida correctamente');
     return true;
   } catch (error) {
-    console.error('❌ Error de conexión a MySQL:', error);
+    logger.error('❌ Error de conexión a MySQL:', {
+      message: error.message,
+      stack: error.stack,
+      code: error.code
+    });
     return false;
   }
 };
@@ -33,5 +50,5 @@ const testConnection = async () => {
 module.exports = {
   sequelize,
   testConnection,
-  Sequelize // Exportar la clase Sequelize podría ser útil en algunos casos
+  Sequelize
 };

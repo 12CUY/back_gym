@@ -7,13 +7,8 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const morgan = require('morgan');
 const path = require('path');
-const fs = require('fs'); // Para crear directorios de logs si no existen
-// const session = require('express-session'); // Descomenta si vas a usar sesiones
-// const passport = require('passport'); // Descomenta si vas a usar Passport.js
+const fs = require('fs');
 
-// Importación de tu configuración y base de datos.
-// **IMPORTANTE:** Revisa la ruta de 'keys' si no está en 'src/config'.
-// Si 'keys.js' está en la raíz de tu proyecto (back_gym), usa: const config = require('../keys');
 const config = require('./config/keys'); // Asumiendo que keys.js está en src/config/
 
 // Importaciones de tu configuración de base de datos
@@ -25,9 +20,8 @@ const app = express();
 // ===========================================
 // 2. CONFIGURACIÓN DE LOGGING (Morgan)
 // ===========================================
-// Asegúrate de que el directorio de logs exista antes de intentar escribir en él.
-// Utiliza config.LOGS.FILE para el directorio base de logs.
-const logsDir = path.dirname(config.LOGS.FILE); // Obtiene el directorio de './logs/app.log' -> './logs'
+
+const logsDir = path.dirname(config.LOGS.FILE);
 if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir, { recursive: true });
 }
@@ -36,15 +30,11 @@ if (config.NODE_ENV === 'production') {
     // En producción: Solo errores a archivo para evitar sobrecargar la consola.
     // Usamos config.LOGS.ERROR_FILE que ya está definido en tu keys.js
     app.use(morgan('combined', {
-        skip: (req, res) => res.statusCode < 400, // Solo loguea respuestas con errores (4xx o 5xx)
-        stream: fs.createWriteStream(config.LOGS.ERROR_FILE, { flags: 'a' }) // Anexar al archivo de errores
+        skip: (req, res) => res.statusCode < 400,
+        stream: fs.createWriteStream(config.LOGS.ERROR_FILE, { flags: 'a' })
     }));
-    // Opcional: Si quieres un log combinado de todas las peticiones en producción
-    // app.use(morgan('combined', {
-    //     stream: fs.createWriteStream(config.LOGS.COMBINED_FILE, { flags: 'a' })
-    // }));
+
 } else {
-    // En desarrollo: Logging detallado en consola para depuración.
     app.use(morgan('dev'));
 }
 
@@ -54,19 +44,11 @@ if (config.NODE_ENV === 'production') {
 
 // Helmet: Establece varios encabezados HTTP para proteger la app de vulnerabilidades conocidas.
 app.use(helmet({
-    // Content Security Policy (CSP): Si config.HELMET.CONTENT_SECURITY_POLICY es true, se habilita.
-    // Tu keys.js ya maneja la lógica de 'false' para deshabilitar.
     contentSecurityPolicy: config.HELMET.CONTENT_SECURITY_POLICY ? {
-        // Aquí deberías definir tus directivas CSP.
-        // Si config.HELMET.CONTENT_SECURITY_POLICY es simplemente 'true' en keys.js,
-        // necesitarías definir las directivas aquí o en keys.js de forma más granular.
-        // Por ahora, si es 'true', se usará un conjunto básico por defecto de Helmet.
-        // Para control total, tu config.HELMET.CONTENT_SECURITY_POLICY en keys.js
-        // debería ser un objeto con las directivas, no solo un booleano.
-        // Ejemplo:
+
         directives: {
             defaultSrc: ["'self'"],
-            scriptSrc: ["'self'", "'unsafe-inline'"], // CUIDADO con 'unsafe-inline'
+            scriptSrc: ["'self'", "'unsafe-inline'"],
             styleSrc: ["'self'", "'unsafe-inline'"],
             imgSrc: ["'self'", "data:"],
             // ... otras directivas
@@ -79,7 +61,6 @@ app.use(helmet({
     } : false
 }));
 
-// Rate Limiting Global para /api/: Protege contra ataques de fuerza bruta y DDoS en la API general.
 const apiLimiter = rateLimit({
     windowMs: config.RATE_LIMIT.WINDOW_MS,
     max: config.RATE_LIMIT.MAX_REQUESTS,
@@ -93,7 +74,6 @@ const apiLimiter = rateLimit({
 });
 app.use('/api/', apiLimiter);
 
-// Rate Limiting Específico para Autenticación: Más estricto para rutas sensibles (login, registro).
 const authLimiter = rateLimit({
     windowMs: config.RATE_LIMIT.LOGIN_WINDOW_MS,
     max: config.RATE_LIMIT.LOGIN_MAX_REQUESTS,
@@ -103,7 +83,7 @@ const authLimiter = rateLimit({
     },
     standardHeaders: true,
     legacyHeaders: false,
-    skipSuccessfulRequests: true // No cuenta las solicitudes exitosas (solo los fallos)
+    skipSuccessfulRequests: true
 });
 app.use('/api/auth/login', authLimiter);
 app.use('/api/auth/register', authLimiter);
@@ -111,10 +91,7 @@ app.use('/api/auth/register', authLimiter);
 // CORS (Cross-Origin Resource Sharing): Controla quién puede acceder a tu API.
 const corsOptions = {
     origin: function (origin, callback) {
-        // Permitir solicitudes sin "origin" (ej. Postman, aplicaciones móviles, curl)
         if (!origin) return callback(null, true);
-
-        // Tu keys.js ya parsea CORS.ORIGIN a un array de strings.
         if (config.CORS.ORIGIN.includes(origin)) {
             callback(null, true);
         } else {
@@ -122,8 +99,8 @@ const corsOptions = {
         }
     },
     credentials: config.CORS.CREDENTIALS,
-    methods: config.CORS.METHODS, // Métodos ya parseados como array en keys.js
-    allowedHeaders: config.CORS.ALLOWED_HEADERS, // Headers ya parseados como array en keys.js
+    methods: config.CORS.METHODS,
+    allowedHeaders: config.CORS.ALLOWED_HEADERS,
     optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
@@ -139,7 +116,7 @@ app.use(express.json({
         try {
             JSON.parse(buf);
         } catch (e) {
-            throw new Error('JSON_MALFORMED'); // Lanza un error específico para el manejador de errores
+            throw new Error('JSON_MALFORMED');
         }
     }
 }));
@@ -173,9 +150,9 @@ app.use((req, res, next) => {
 // Middleware: Captura la IP real del cliente para logging y auditoría.
 app.use((req, res, next) => {
     const clientIp = req.headers['x-forwarded-for'] || req.ip ||
-                     req.connection.remoteAddress ||
-                     req.socket.remoteAddress ||
-                     (req.connection.socket ? req.connection.socket.remoteAddress : null);
+        req.connection.remoteAddress ||
+        req.socket.remoteAddress ||
+        (req.connection.socket ? req.connection.socket.remoteAddress : null);
     req.clientIp = clientIp;
     next();
 });
@@ -183,28 +160,11 @@ app.use((req, res, next) => {
 // ===========================================
 // 5. CONFIGURACIÓN DE SESIONES (si usas sesiones además de/en lugar de JWT)
 // ===========================================
-// Descomenta y configura si necesitas express-session
-/*
-app.use(session({
-    secret: config.SESSION.SECRET,
-    resave: config.SESSION.RESAVE,
-    saveUninitialized: config.SESSION.SAVE_UNINITIALIZED,
-    cookie: {
-        secure: config.SESSION.COOKIE.SECURE, // true en producción (requiere HTTPS)
-        httpOnly: config.SESSION.COOKIE.HTTP_ONLY, // true para prevenir acceso JS
-        maxAge: config.SESSION.COOKIE.MAX_AGE // Tiempo de vida de la cookie
-    }
-}));
-*/
+
 
 // ===========================================
 // 6. AUTENTICACIÓN (Passport.js - si lo usas)
 // ===========================================
-// Descomenta y configura si utilizas Passport.js
-/*
-app.use(passport.initialize());
-require('./lib/passport')(passport); // Asegúrate de que la ruta a tu config de Passport sea correcta
-*/
 
 // ===========================================
 // 7. RUTAS DE SALUD Y ESTADO (para monitoreo)
@@ -232,10 +192,7 @@ app.get('/api/status', (req, res) => {
 // 8. TUS RUTAS DE LA API
 // ===========================================
 // Aquí es donde importarías y usarías tus módulos de rutas.
-// Ejemplo:
-// app.use('/api/auth', require('./routes/authRoutes'));
-// app.use('/api/users', require('./routes/userRoutes'));
-// app.use('/api/exercises', require('./routes/exerciseRoutes'));
+
 
 // Tu ruta de prueba original
 app.get('/', (req, res) => {
@@ -250,7 +207,6 @@ app.get('/', (req, res) => {
 // 9. MANEJO DE ERRORES (Importante para seguridad y experiencia de usuario)
 // ===========================================
 
-// Middleware para manejar rutas no encontradas (404). DEBE IR DESPUÉS DE TODAS TUS RUTAS DEFINIDAS.
 app.use('*', (req, res) => {
     res.status(404).json({
         error: 'Ruta no encontrada',
@@ -280,20 +236,7 @@ app.use((err, req, res, next) => {
         message = 'El cuerpo de la solicitud contiene JSON malformado.';
         errorCode = 'INVALID_JSON_FORMAT';
     }
-    // Aquí puedes añadir más manejo de errores específicos, por ejemplo, para errores de JWT:
-    // else if (err.name === 'UnauthorizedError' && err.message === 'No authorization token was found') {
-    //     statusCode = 401;
-    //     message = 'No se proporcionó token de autenticación.';
-    //     errorCode = 'NO_AUTH_TOKEN';
-    // } else if (err.name === 'UnauthorizedError' && err.message === 'jwt expired') {
-    //     statusCode = 401;
-    //     message = 'Token de autenticación expirado.';
-    //     errorCode = 'TOKEN_EXPIRED';
-    // } else if (err.name === 'JsonWebTokenError') {
-    //     statusCode = 401;
-    //     message = 'Token de autenticación inválido.';
-    //     errorCode = 'INVALID_TOKEN';
-    // }
+
 
     // En producción, no revelar detalles de errores internos.
     if (config.NODE_ENV === 'production' && statusCode === 500) {
