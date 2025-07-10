@@ -1,65 +1,361 @@
-// src/app.js
-require('dotenv').config(); // Asegúrate de que esto esté al principio para cargar las variables de entorno
-const express = require('express');
+// variables de entorno
+require('dotenv').config();
 
-// Importación CORRECTA según estructura de carpetas
-const config = require('./config/keys');
+const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const morgan = require('morgan');
+const path = require('path');
+const fs = require('fs'); // Para crear directorios de logs si no existen
+// const session = require('express-session'); // Descomenta si vas a usar sesiones
+// const passport = require('passport'); // Descomenta si vas a usar Passport.js
+
+// Importación de tu configuración y base de datos.
+// **IMPORTANTE:** Revisa la ruta de 'keys' si no está en 'src/config'.
+// Si 'keys.js' está en la raíz de tu proyecto (back_gym), usa: const config = require('../keys');
+const config = require('./config/keys'); // Asumiendo que keys.js está en src/config/
+
+// Importaciones de tu configuración de base de datos
 const { sequelize, testConnection } = require('./config/database');
-const { definirAsociaciones } = require('./models/sql/index'); // <--- CORRECCIÓN AQUÍ
+const { definirAsociaciones } = require('./models/sql/index'); // Ajusta la ruta si es necesario
 
 const app = express();
 
-// Middlewares básicos
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+// ===========================================
+// 2. CONFIGURACIÓN DE LOGGING (Morgan)
+// ===========================================
+// Asegúrate de que el directorio de logs exista antes de intentar escribir en él.
+// Utiliza config.LOGS.FILE para el directorio base de logs.
+const logsDir = path.dirname(config.LOGS.FILE); // Obtiene el directorio de './logs/app.log' -> './logs'
+if (!fs.existsSync(logsDir)) {
+    fs.mkdirSync(logsDir, { recursive: true });
+}
 
-// Inicialización de la base de datos
-const initializeDatabase = async () => {
-  try {
-    // Verificar conexión
-    const isConnected = await testConnection();
-    if (!isConnected) {
-      throw new Error('No se pudo conectar a la base de datos');
-    }
+if (config.NODE_ENV === 'production') {
+    // En producción: Solo errores a archivo para evitar sobrecargar la consola.
+    // Usamos config.LOGS.ERROR_FILE que ya está definido en tu keys.js
+    app.use(morgan('combined', {
+        skip: (req, res) => res.statusCode < 400, // Solo loguea respuestas con errores (4xx o 5xx)
+        stream: fs.createWriteStream(config.LOGS.ERROR_FILE, { flags: 'a' }) // Anexar al archivo de errores
+    }));
+    // Opcional: Si quieres un log combinado de todas las peticiones en producción
+    // app.use(morgan('combined', {
+    //     stream: fs.createWriteStream(config.LOGS.COMBINED_FILE, { flags: 'a' })
+    // }));
+} else {
+    // En desarrollo: Logging detallado en consola para depuración.
+    app.use(morgan('dev'));
+}
 
-    // Configurar asociaciones
-    definirAsociaciones(); // Llama a la función para establecer las asociaciones
+// ===========================================
+// 3. MIDDLEWARES DE SEGURIDAD ESENCIALES (Helmet, Rate Limiting, CORS)
+// ===========================================
 
-    // Sincronizar modelos
-    console.log('⏳ Sincronizando modelos con la base de datos...');
-    await sequelize.sync({
-      alter: config.MODE_ENV === 'development', // 'alter' intentará modificar tablas para que coincidan con los cambios del modelo
-      force: false // Establece a 'true' SÓLO para desarrollo si quieres borrar y recrear tablas en cada reinicio
-    });
-    console.log('✅ Base de datos inicializada correctamente');
-  } catch (error) {
-    console.error('❌ Error inicializando la base de datos:', error);
-    process.exit(1);
-  }
+// Helmet: Establece varios encabezados HTTP para proteger la app de vulnerabilidades conocidas.
+app.use(helmet({
+    // Content Security Policy (CSP): Si config.HELMET.CONTENT_SECURITY_POLICY es true, se habilita.
+    // Tu keys.js ya maneja la lógica de 'false' para deshabilitar.
+    contentSecurityPolicy: config.HELMET.CONTENT_SECURITY_POLICY ? {
+        // Aquí deberías definir tus directivas CSP.
+        // Si config.HELMET.CONTENT_SECURITY_POLICY es simplemente 'true' en keys.js,
+        // necesitarías definir las directivas aquí o en keys.js de forma más granular.
+        // Por ahora, si es 'true', se usará un conjunto básico por defecto de Helmet.
+        // Para control total, tu config.HELMET.CONTENT_SECURITY_POLICY en keys.js
+        // debería ser un objeto con las directivas, no solo un booleano.
+        // Ejemplo:
+        directives: {
+            defaultSrc: ["'self'"],
+            scriptSrc: ["'self'", "'unsafe-inline'"], // CUIDADO con 'unsafe-inline'
+            styleSrc: ["'self'", "'unsafe-inline'"],
+            imgSrc: ["'self'", "data:"],
+            // ... otras directivas
+        }
+    } : false, // Si es false, CSP se deshabilita.
+    // HTTP Strict Transport Security (HSTS): Fuerza el uso de HTTPS.
+    hsts: config.HELMET.HSTS.ENABLED ? {
+        maxAge: config.HELMET.HSTS.MAX_AGE,
+        includeSubDomains: config.HELMET.HSTS.INCLUDE_SUBDOMAINS
+    } : false
+}));
+
+// Rate Limiting Global para /api/: Protege contra ataques de fuerza bruta y DDoS en la API general.
+const apiLimiter = rateLimit({
+    windowMs: config.RATE_LIMIT.WINDOW_MS,
+    max: config.RATE_LIMIT.MAX_REQUESTS,
+    message: {
+        error: config.RATE_LIMIT.MESSAGE,
+        code: 'TOO_MANY_REQUESTS'
+    },
+    standardHeaders: true,
+    legacyHeaders: false,
+    keyGenerator: (req) => req.ip
+});
+app.use('/api/', apiLimiter);
+
+// Rate Limiting Específico para Autenticación: Más estricto para rutas sensibles (login, registro).
+const authLimiter = rateLimit({
+    windowMs: config.RATE_LIMIT.LOGIN_WINDOW_MS,
+    max: config.RATE_LIMIT.LOGIN_MAX_REQUESTS,
+    message: {
+        error: 'Demasiados intentos de login. Por favor, intenta de nuevo más tarde.',
+        code: 'TOO_MANY_LOGIN_ATTEMPTS'
+    },
+    standardHeaders: true,
+    legacyHeaders: false,
+    skipSuccessfulRequests: true // No cuenta las solicitudes exitosas (solo los fallos)
+});
+app.use('/api/auth/login', authLimiter);
+app.use('/api/auth/register', authLimiter);
+
+// CORS (Cross-Origin Resource Sharing): Controla quién puede acceder a tu API.
+const corsOptions = {
+    origin: function (origin, callback) {
+        // Permitir solicitudes sin "origin" (ej. Postman, aplicaciones móviles, curl)
+        if (!origin) return callback(null, true);
+
+        // Tu keys.js ya parsea CORS.ORIGIN a un array de strings.
+        if (config.CORS.ORIGIN.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('No permitido por la política CORS.'));
+        }
+    },
+    credentials: config.CORS.CREDENTIALS,
+    methods: config.CORS.METHODS, // Métodos ya parseados como array en keys.js
+    allowedHeaders: config.CORS.ALLOWED_HEADERS, // Headers ya parseados como array en keys.js
+    optionsSuccessStatus: 200
 };
+app.use(cors(corsOptions));
 
-// Ruta de prueba
-app.get('/', (req, res) => {
-  res.json({
-    message: 'Backend de Gimnasio Funcionando',
-    status: 'OK',
-    environment: config.MODE_ENV
-  });
+// ===========================================
+// 4. MIDDLEWARES DE PARSING Y SEGURIDAD ADICIONAL
+// ===========================================
+
+// Parsing de JSON: Limita el tamaño del cuerpo y valida el formato JSON.
+app.use(express.json({
+    limit: '10mb',
+    verify: (req, res, buf) => {
+        try {
+            JSON.parse(buf);
+        } catch (e) {
+            throw new Error('JSON_MALFORMED'); // Lanza un error específico para el manejador de errores
+        }
+    }
+}));
+
+// Parsing de datos URL-encoded: Limita el tamaño.
+app.use(express.urlencoded({
+    extended: true,
+    limit: '10mb'
+}));
+
+// Middleware personalizado: Remueve headers que revelan información del servidor (seguridad por "oscurecimiento").
+app.use((req, res, next) => {
+    res.removeHeader('X-Powered-By');
+    res.removeHeader('Server');
+    next();
 });
 
-// Iniciar servidor
-const startServer = async () => {
-  await initializeDatabase(); // Asegura que la base de datos se inicialice antes de iniciar el servidor
+// Middleware: Valida que las solicitudes POST/PUT/PATCH tengan Content-Type: application/json.
+app.use((req, res, next) => {
+    if (['POST', 'PUT', 'PATCH'].includes(req.method)) {
+        if (!req.get('Content-Type') || !req.get('Content-Type').includes('application/json')) {
+            return res.status(400).json({
+                error: 'Content-Type debe ser application/json para esta solicitud.',
+                code: 'INVALID_CONTENT_TYPE'
+            });
+        }
+    }
+    next();
+});
 
-  const PORT = config.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
-    console.log(`📌 Entorno: ${config.MODE_ENV}`);
-    console.log(`💾 Base de datos: ${config.MySQL.DATABASE}`);
-  });
+// Middleware: Captura la IP real del cliente para logging y auditoría.
+app.use((req, res, next) => {
+    const clientIp = req.headers['x-forwarded-for'] || req.ip ||
+                     req.connection.remoteAddress ||
+                     req.socket.remoteAddress ||
+                     (req.connection.socket ? req.connection.socket.remoteAddress : null);
+    req.clientIp = clientIp;
+    next();
+});
+
+// ===========================================
+// 5. CONFIGURACIÓN DE SESIONES (si usas sesiones además de/en lugar de JWT)
+// ===========================================
+// Descomenta y configura si necesitas express-session
+/*
+app.use(session({
+    secret: config.SESSION.SECRET,
+    resave: config.SESSION.RESAVE,
+    saveUninitialized: config.SESSION.SAVE_UNINITIALIZED,
+    cookie: {
+        secure: config.SESSION.COOKIE.SECURE, // true en producción (requiere HTTPS)
+        httpOnly: config.SESSION.COOKIE.HTTP_ONLY, // true para prevenir acceso JS
+        maxAge: config.SESSION.COOKIE.MAX_AGE // Tiempo de vida de la cookie
+    }
+}));
+*/
+
+// ===========================================
+// 6. AUTENTICACIÓN (Passport.js - si lo usas)
+// ===========================================
+// Descomenta y configura si utilizas Passport.js
+/*
+app.use(passport.initialize());
+require('./lib/passport')(passport); // Asegúrate de que la ruta a tu config de Passport sea correcta
+*/
+
+// ===========================================
+// 7. RUTAS DE SALUD Y ESTADO (para monitoreo)
+// ===========================================
+app.get('/health', (req, res) => {
+    res.status(200).json({
+        status: 'OK',
+        timestamp: new Date().toISOString(),
+        uptime: process.uptime(),
+        environment: config.NODE_ENV,
+        version: process.env.npm_package_version || '1.0.0'
+    });
+});
+
+app.get('/api/status', (req, res) => {
+    res.json({
+        message: 'API del Gym funcionando correctamente',
+        version: process.env.npm_package_version || '1.0.0',
+        timestamp: new Date().toISOString(),
+        environment: config.NODE_ENV
+    });
+});
+
+// ===========================================
+// 8. TUS RUTAS DE LA API
+// ===========================================
+// Aquí es donde importarías y usarías tus módulos de rutas.
+// Ejemplo:
+// app.use('/api/auth', require('./routes/authRoutes'));
+// app.use('/api/users', require('./routes/userRoutes'));
+// app.use('/api/exercises', require('./routes/exerciseRoutes'));
+
+// Tu ruta de prueba original
+app.get('/', (req, res) => {
+    res.json({
+        message: 'Backend de Gimnasio Funcionando',
+        status: 'OK',
+        environment: config.NODE_ENV
+    });
+});
+
+// ===========================================
+// 9. MANEJO DE ERRORES (Importante para seguridad y experiencia de usuario)
+// ===========================================
+
+// Middleware para manejar rutas no encontradas (404). DEBE IR DESPUÉS DE TODAS TUS RUTAS DEFINIDAS.
+app.use('*', (req, res) => {
+    res.status(404).json({
+        error: 'Ruta no encontrada',
+        code: 'ROUTE_NOT_FOUND',
+        path: req.originalUrl,
+        method: req.method
+    });
+});
+
+// Middleware global de manejo de errores. DEBE IR AL FINAL, DESPUÉS DE TODOS LOS MIDDLEWARES Y RUTAS.
+app.use((err, req, res, next) => {
+    if (config.NODE_ENV !== 'production') {
+        console.error('Error no capturado:', err);
+    }
+
+    let statusCode = err.statusCode || err.status || 500;
+    let message = 'Error interno del servidor';
+    let errorCode = 'INTERNAL_SERVER_ERROR';
+
+    // Manejo de errores específicos
+    if (err.message === 'No permitido por la política CORS.') {
+        statusCode = 403;
+        message = 'Origen de solicitud no permitido por CORS.';
+        errorCode = 'CORS_FORBIDDEN';
+    } else if (err.message === 'JSON_MALFORMED') {
+        statusCode = 400;
+        message = 'El cuerpo de la solicitud contiene JSON malformado.';
+        errorCode = 'INVALID_JSON_FORMAT';
+    }
+    // Aquí puedes añadir más manejo de errores específicos, por ejemplo, para errores de JWT:
+    // else if (err.name === 'UnauthorizedError' && err.message === 'No authorization token was found') {
+    //     statusCode = 401;
+    //     message = 'No se proporcionó token de autenticación.';
+    //     errorCode = 'NO_AUTH_TOKEN';
+    // } else if (err.name === 'UnauthorizedError' && err.message === 'jwt expired') {
+    //     statusCode = 401;
+    //     message = 'Token de autenticación expirado.';
+    //     errorCode = 'TOKEN_EXPIRED';
+    // } else if (err.name === 'JsonWebTokenError') {
+    //     statusCode = 401;
+    //     message = 'Token de autenticación inválido.';
+    //     errorCode = 'INVALID_TOKEN';
+    // }
+
+    // En producción, no revelar detalles de errores internos.
+    if (config.NODE_ENV === 'production' && statusCode === 500) {
+        message = 'Ha ocurrido un error inesperado en el servidor.';
+    } else {
+        message = err.message || message;
+    }
+
+    res.status(statusCode).json({
+        error: message,
+        code: errorCode,
+        ...(config.NODE_ENV !== 'production' && { stack: err.stack })
+    });
+});
+
+// ===========================================
+// 10. INICIALIZACIÓN DE LA BASE DE DATOS Y ARRANQUE DEL SERVIDOR
+// ===========================================
+// Esta lógica se mantiene de tu primer archivo, asegurando la DB antes de iniciar el servidor.
+
+const initializeDatabase = async () => {
+    try {
+        console.log('🔗 Intentando conectar a la base de datos...');
+        const isConnected = await testConnection();
+        if (!isConnected) {
+            throw new Error('No se pudo establecer conexión con la base de datos.');
+        }
+        console.log('✅ Conexión a la base de datos establecida.');
+
+        // Definir asociaciones de modelos (si usas Sequelize con asociaciones)
+        if (typeof definirAsociaciones === 'function') {
+            definirAsociaciones();
+            console.log('🧩 Asociaciones de modelos definidas.');
+        }
+
+        // Sincronizar modelos con la base de datos
+        console.log('⏳ Sincronizando modelos con la base de datos...');
+        await sequelize.sync({
+            alter: config.NODE_ENV === 'development',
+            force: false
+        });
+        console.log('✅ Modelos sincronizados con la base de datos correctamente.');
+    } catch (error) {
+        console.error('❌ Error crítico al inicializar la base de datos:', error);
+        process.exit(1);
+    }
+};
+
+const startServer = async () => {
+    await initializeDatabase();
+
+    const PORT = config.PORT || 3000;
+    app.listen(PORT, () => {
+        console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+        console.log(`📌 Entorno: ${config.NODE_ENV}`);
+        console.log(`💾 Base de datos MySQL: ${config.MySQL.DATABASE}`);
+    });
 };
 
 startServer().catch(err => {
-  console.error('❌ Error al iniciar la aplicación:', err);
-  process.exit(1);
+    console.error('❌ Error al iniciar la aplicación:', err);
+    process.exit(1);
 });
+
+module.exports = app;
