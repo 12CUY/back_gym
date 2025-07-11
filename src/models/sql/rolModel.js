@@ -1,6 +1,6 @@
 // src/models/sql/rolModel.js
 const { DataTypes } = require('sequelize');
-const { sequelize } = require('../../config/database'); // <--- CORRECCIÓN AQUÍ (dos niveles arriba)
+const { sequelize } = require('./config/database'); // <--- CORRECCIÓN AQUÍ (dos niveles arriba)
 
 const Rol = sequelize.define('Rol', {
   id: {

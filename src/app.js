@@ -11,8 +11,8 @@ const logger = require('./utils/logger'); // Asegúrate de que esta ruta es corr
 const config = require('./config/keys');
 
 // Importaciones de base de datos
-const { sequelize, testConnection } = require('./config/database');
-const { definirAsociaciones } = require('./models/sql/index');
+const { sequelize, testConnection } = require('./models/sql/config/database');
+const { definirAsociaciones } = require('./models/sql/config/databaseOrm');
 
 const app = express();
 

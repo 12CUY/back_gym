@@ -1,23 +1,23 @@
 // src/models/sql/index.js
 // Corrección en la ruta de importación de database
 const { DataTypes } = require('sequelize');
-const { sequelize } = require('../../config/database');
+const { sequelize } = require('./database');
 
 // Importar todos tus modelos individuales
-const Rol = require('./rolModel'); // <--- CORRECCIÓN AQUÍ (es ruta local en la misma carpeta)
-const Usuario = require('./usuarioModel'); // <--- CORRECCIÓN AQUÍ
-const Configuracion = require('./configuracionModel'); // <--- CORRECCIÓN AQUÍ
-const Cliente = require('./clienteModel'); // <--- CORRECCIÓN AQUÍ
-const Membresia = require('./membresiaModel'); // <--- CORRECCIÓN AQUÍ
-const Pago = require('./pagoModel'); // <--- CORRECCIÓN AQUÍ
-const Visita = require('./visitaModel'); // <--- CORRECCIÓN AQUÍ
-const Trabajador = require('./trabajadorModel'); // <--- CORRECCIÓN AQUÍ
-const Profesor = require('./profesorModel'); // <--- CORRECCIÓN AQUÍ
-const Clase = require('./claseModel'); // <--- CORRECCIÓN AQUÍ
-const Reserva = require('./reservaModel'); // <--- CORRECCIÓN AQUÍ
-const Ficha = require('./fichaModel'); // <--- CORRECCIÓN AQUÍ
-const Producto = require('./productoModel'); // <--- CORRECCIÓN AQUÍ
-const Inventario = require('./inventarioModel'); // <--- CORRECCIÓN AQUÍ
+const Rol = require('../rolModel'); // <--- CORRECCIÓN AQUÍ (es ruta local en la misma carpeta)
+const Usuario = require('../usuarioModel'); // <--- CORRECCIÓN AQUÍ
+const Configuracion = require('../configuracionModel'); // <--- CORRECCIÓN AQUÍ
+const Cliente = require('../clienteModel'); // <--- CORRECCIÓN AQUÍ
+const Membresia = require('../membresiaModel'); // <--- CORRECCIÓN AQUÍ
+const Pago = require('../pagoModel'); // <--- CORRECCIÓN AQUÍ
+const Visita = require('../visitaModel'); // <--- CORRECCIÓN AQUÍ
+const Trabajador = require('../trabajadorModel'); // <--- CORRECCIÓN AQUÍ
+const Profesor = require('../profesorModel'); // <--- CORRECCIÓN AQUÍ
+const Clase = require('../claseModel'); // <--- CORRECCIÓN AQUÍ
+const Reserva = require('../reservaModel'); // <--- CORRECCIÓN AQUÍ
+const Ficha = require('../fichaModel'); // <--- CORRECCIÓN AQUÍ
+const Producto = require('../productoModel'); // <--- CORRECCIÓN AQUÍ
+const Inventario = require('../inventarioModel'); // <--- CORRECCIÓN AQUÍ
 
 function definirAsociaciones() {
   try {

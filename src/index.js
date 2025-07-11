@@ -5,10 +5,7 @@ const { sequelize } = require('./config/database');
 
 // Importar todos los modelos (esto es importante para que Sequelize los registre)
 const Rol = require('./models/sql/rolModel');
-// Importa aquí todos tus modelos cuando los tengas
-// const User = require('./models/sql/userModel');
-// const Ejercicio = require('./models/sql/ejercicioModel');
-// etc...
+
 
 const app = express();
 
@@ -17,10 +14,6 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
 
-// Rutas (comentadas hasta que las tengas)
-// app.use('/api/auth', require('./routes/authRoutes'));
-// app.use('/api/users', require('./routes/userRoutes'));
-// Agrega aquí más rutas
 
 // Ruta de prueba
 app.get('/', (req, res) => {
