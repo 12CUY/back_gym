@@ -29,6 +29,8 @@ const config = {
       ACQUIRE: parseInt(process.env.DB_POOL_ACQUIRE) || 30000,
       IDLE: parseInt(process.env.DB_POOL_IDLE) || 10000
     },
+
+    
     SSL: {
       ENABLED: process.env.DB_SSL_ENABLED === 'true',
       REJECT_UNAUTHORIZED: process.env.DB_SSL_REJECT_UNAUTHORIZED !== 'false',
