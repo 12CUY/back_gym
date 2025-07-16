@@ -1,57 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const morgan = require('morgan');
-const { sequelize } = require('./config/database');
+const app = require('./app');
 
-// Importar todos los modelos (esto es importante para que Sequelize los registre)
-const Rol = require('./models/sql/rolModel');
-
-
-const app = express();
-
-// Middlewares
-app.use(cors());
-app.use(express.json());
-app.use(morgan('dev'));
-
-
-// Ruta de prueba
-app.get('/', (req, res) => {
-  res.json({ message: 'API del Gym funcionando correctamente' });
+const port = app.get('port');
+app.listen(port, () => {
+    console.log(`El servidor está escuchando en el puerto ${port}`);
 });
-
-// Función para inicializar la base de datos
-const initializeDatabase = async () => {
-  try {
-    // Autenticar conexión
-    await sequelize.authenticate();
-    console.log('✅ Conexión a MySQL establecida correctamente');
-    
-    // Sincronizar modelos con la base de datos
-    // force: true recreará las tablas (solo para desarrollo)
-    // alter: true actualizará las tablas existentes
-    await sequelize.sync({ force: false, alter: true });
-    console.log('✅ Modelos sincronizados con la base de datos');
-    
-    return true;
-  } catch (error) {
-    console.error('❌ Error al inicializar la base de datos:', error);
-    return false;
-  }
-};
-
-// Inicializar servidor
-const startServer = async () => {
-  const dbInitialized = await initializeDatabase();
-  
-  if (!dbInitialized) {
-    console.error('❌ No se pudo inicializar la base de datos. Cerrando aplicación...');
-    process.exit(1);
-  }
-  
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
-  });
-};
-    
