@@ -1,6 +1,6 @@
-const usuario = (sequelize, DataTypes) => {
-    return sequelize.define('usuarios', {
-        idUsuario: {
+const clase = (sequelize, DataTypes) => {
+    return sequelize.define('clases', {
+        idClase: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true
@@ -9,39 +9,34 @@ const usuario = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false
         },
-        apellido: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-        correo: {
-            type: DataTypes.STRING,
-            allowNull: false,
-            unique: true
-        },
-        contraseña: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-        rolId: {
+        capacidadMaxima: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        estado: {
+        horario: {
+            type: DataTypes.STRING, // Puedes usar TIME o DATE si es horario específico
+            allowNull: false
+        },
+        profesorId: {
+            type: DataTypes.INTEGER,
+            allowNull: false
+        },
+        stateClase: {
             type: DataTypes.ENUM('activo', 'inactivo'),
             allowNull: false
         },
-        createUsuario: {
+        createClase: {
             type: DataTypes.DATE,
             allowNull: true
         },
-        updateUsuario: {
+        updateClase: {
             type: DataTypes.DATE,
             allowNull: true
         }
     }, {
         timestamps: false,
-        comment: 'Tabla de Usuarios'
+        comment: 'Tabla de Clases'
     });
 };
 
-module.exports = usuario;
+module.exports = clase;

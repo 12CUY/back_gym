@@ -1,21 +1,20 @@
-const cliente = (sequelize, type) =>{
-    return sequelize.define('clientes',{
-        idClientes: {
-            type: type.INTEGER,
+const cliente = (sequelize, DataTypes) => {
+    return sequelize.define('clientes', {
+        idCliente: {
+            type: DataTypes.INTEGER,
             autoIncrement: true,
-            primaryKey: true,
+            primaryKey: true 
         },
-        cedulaCliente: type.STRING,
-        nombreCliente: type.STRING,
-        usernameCliente: type.STRING,
-        passwordCliente: type.STRING,
-        stadoCliente: type.STRING,
-        createCliente: type.STRING,
-        updateCliente: type.STRING,
-    },{
+        telefono: DataTypes.STRING,
+        direccion: DataTypes.STRING,
+        membresiaId: DataTypes.INTEGER,
+        stateCliente: DataTypes.STRING,
+        createCliente: DataTypes.STRING,
+        updateCliente: DataTypes.STRING
+    }, {
         timestamps: false,
-        Comment: 'Tabla Clientes'
-    })
-}
+        comment: 'Tabla de Clientes'
+    });
+};
 
-module.exports = cliente
+module.exports = cliente;

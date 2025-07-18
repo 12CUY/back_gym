@@ -35,3 +35,1452 @@
 2025-07-16 13:55:46 [INFO]: Conexión establecida con la base de datos
 2025-07-16 13:55:50 [INFO]: Base de Datos sincronizadas
 2025-07-16 13:56:34 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-16 16:16:47 [ERROR]: (node:16940) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:16:47 [ERROR]: (node:16940) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:16:47 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:16:47 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:16:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:16:48 [INFO]: Base de datos conectada
+2025-07-16 16:16:48 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:16:52 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:31:57 [ERROR]: (node:1080) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:31:57 [ERROR]: (node:1080) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:31:57 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:31:57 [INFO]: Base de datos conectada
+2025-07-16 16:31:57 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:31:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:31:58 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:32:02 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:32:07 [ERROR]: (node:12720) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:32:07 [ERROR]: (node:12720) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:32:07 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:32:07 [INFO]: Base de datos conectada
+2025-07-16 16:32:08 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:32:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:32:08 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:32:14 [ERROR]: (node:3232) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:32:14 [ERROR]: (node:3232) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:32:14 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:32:14 [INFO]: Base de datos conectada
+2025-07-16 16:32:14 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:32:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:32:15 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:32:18 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:32:28 [ERROR]: (node:8732) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:32:28 [ERROR]: (node:8732) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:32:28 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:32:29 [INFO]: Base de datos conectada
+2025-07-16 16:32:32 [ERROR]: (node:10836) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:32:32 [ERROR]: (node:10836) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:32:32 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:32:33 [INFO]: Base de datos conectada
+2025-07-16 16:32:33 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:32:33 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:32:33 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:32:37 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:32:41 [ERROR]: (node:2012) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:32:41 [ERROR]: (node:2012) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:32:41 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:32:42 [INFO]: Base de datos conectada
+2025-07-16 16:32:42 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:32:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:32:42 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:32:47 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:32:56 [ERROR]: (node:16116) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:32:56 [ERROR]: (node:16116) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:32:56 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:32:56 [INFO]: Base de datos conectada
+2025-07-16 16:32:56 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:32:56 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:32:57 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:01 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:33:04 [ERROR]: (node:12936) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:04 [ERROR]: (node:12936) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:04 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:05 [INFO]: Base de datos conectada
+2025-07-16 16:33:05 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:05 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:09 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:33:13 [ERROR]: (node:4408) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:13 [ERROR]: (node:4408) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:13 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:13 [INFO]: Base de datos conectada
+2025-07-16 16:33:13 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:14 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:18 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:33:23 [ERROR]: (node:17276) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:23 [ERROR]: (node:17276) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:23 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:23 [INFO]: Base de datos conectada
+2025-07-16 16:33:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:24 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:28 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:33:31 [ERROR]: (node:14256) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:31 [ERROR]: (node:14256) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:31 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:31 [INFO]: Base de datos conectada
+2025-07-16 16:33:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:32 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:36 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:33:41 [ERROR]: (node:9868) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:41 [ERROR]: (node:9868) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:41 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:41 [INFO]: Base de datos conectada
+2025-07-16 16:33:41 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:42 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:47 [ERROR]: (node:3960) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:47 [ERROR]: (node:3960) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:47 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:47 [INFO]: Base de datos conectada
+2025-07-16 16:33:53 [ERROR]: (node:7724) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:53 [ERROR]: (node:7724) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:53 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:53 [INFO]: Base de datos conectada
+2025-07-16 16:33:54 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:54 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:54 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:33:57 [ERROR]: (node:4932) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:33:57 [ERROR]: (node:4932) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:33:57 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:33:57 [INFO]: Base de datos conectada
+2025-07-16 16:33:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:33:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:33:58 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:34:02 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:34:23 [ERROR]: (node:1472) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:34:23 [ERROR]: (node:1472) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:34:23 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:34:23 [INFO]: Base de datos conectada
+2025-07-16 16:34:25 [ERROR]: (node:2640) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:34:25 [ERROR]: (node:2640) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:34:25 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:34:26 [INFO]: Base de datos conectada
+2025-07-16 16:34:26 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:34:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:34:26 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:34:31 [ERROR]: (node:15536) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:34:31 [ERROR]: (node:15536) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:34:31 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:34:31 [INFO]: Base de datos conectada
+2025-07-16 16:34:31 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:34:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:34:32 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:34:35 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:40:44 [ERROR]: (node:3400) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:40:44 [ERROR]: (node:3400) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:40:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:40:44 [INFO]: Base de datos conectada
+2025-07-16 16:40:45 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:40:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:40:45 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:41:17 [ERROR]: (node:924) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:41:17 [ERROR]: (node:924) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:41:17 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:41:17 [INFO]: Base de datos conectada
+2025-07-16 16:41:17 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:41:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:41:18 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:41:22 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:41:25 [ERROR]: (node:14960) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:41:25 [ERROR]: (node:14960) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:41:25 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:41:26 [INFO]: Base de datos conectada
+2025-07-16 16:41:26 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:41:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:41:26 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:41:33 [ERROR]: (node:5512) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:41:33 [ERROR]: (node:5512) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:41:33 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:41:33 [INFO]: Base de datos conectada
+2025-07-16 16:41:34 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:41:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:41:34 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:41:38 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:43:12 [ERROR]: (node:11092) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:43:12 [ERROR]: (node:11092) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:43:12 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:43:12 [INFO]: Base de datos conectada
+2025-07-16 16:43:12 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:43:12 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:43:13 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:43:17 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:44:52 [ERROR]: (node:3056) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:44:53 [ERROR]: (node:3056) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:44:53 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:44:53 [INFO]: Base de datos conectada
+2025-07-16 16:44:53 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:44:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:44:54 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:44:57 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:45:55 [ERROR]: (node:13820) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:45:55 [ERROR]: (node:13820) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:45:55 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:45:55 [INFO]: Base de datos conectada
+2025-07-16 16:45:55 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:45:55 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:45:56 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:45:59 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:46:13 [ERROR]: (node:288) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:46:13 [ERROR]: (node:288) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:46:13 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:46:14 [INFO]: Base de datos conectada
+2025-07-16 16:46:14 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:46:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:46:14 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:46:18 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:46:40 [ERROR]: (node:12752) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:46:40 [ERROR]: (node:12752) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:46:40 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:46:40 [INFO]: Base de datos conectada
+2025-07-16 16:46:41 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:46:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:46:41 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:46:45 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:47:46 [ERROR]: (node:7816) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:47:46 [ERROR]: (node:7816) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:47:46 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:47:46 [INFO]: Base de datos conectada
+2025-07-16 16:47:46 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:47:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:47:46 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:47:50 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:48:42 [ERROR]: (node:9988) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:48:42 [ERROR]: (node:9988) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:48:42 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:48:42 [INFO]: Base de datos conectada
+2025-07-16 16:48:43 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:48:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:48:43 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:48:48 [ERROR]: (node:16368) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:48:48 [ERROR]: (node:16368) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:48:48 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:48:48 [INFO]: Base de datos conectada
+2025-07-16 16:48:48 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:48:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:48:48 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:48:52 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:49:05 [ERROR]: (node:11024) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:49:05 [ERROR]: (node:11024) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:49:05 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:49:05 [INFO]: Base de datos conectada
+2025-07-16 16:49:05 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:49:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:49:06 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:49:09 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:49:33 [ERROR]: (node:1736) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:49:33 [ERROR]: (node:1736) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:49:33 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:49:33 [INFO]: Base de datos conectada
+2025-07-16 16:49:34 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:49:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:49:34 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:49:37 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:50:14 [ERROR]: (node:14584) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:50:14 [ERROR]: (node:14584) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:50:14 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:50:14 [INFO]: Base de datos conectada
+2025-07-16 16:50:15 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:50:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:50:15 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:50:18 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:50:24 [ERROR]: (node:13108) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:50:24 [ERROR]: (node:13108) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:50:24 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:50:24 [INFO]: Base de datos conectada
+2025-07-16 16:50:24 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:50:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:50:25 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:50:28 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:50:35 [ERROR]: (node:3768) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:50:35 [ERROR]: (node:3768) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:50:35 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:50:35 [INFO]: Base de datos conectada
+2025-07-16 16:50:35 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:50:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:50:36 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:50:39 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:51:31 [ERROR]: (node:16236) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:51:31 [ERROR]: (node:16236) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:51:31 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:51:31 [INFO]: Base de datos conectada
+2025-07-16 16:51:31 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:51:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:51:32 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:51:35 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:52:24 [ERROR]: (node:15660) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:52:24 [ERROR]: (node:15660) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:52:24 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:52:24 [INFO]: Base de datos conectada
+2025-07-16 16:52:24 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:52:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:52:24 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:52:28 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:52:47 [ERROR]: (node:14256) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:52:48 [ERROR]: (node:14256) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:52:48 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:52:48 [INFO]: Base de datos conectada
+2025-07-16 16:52:48 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:52:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:52:48 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:52:52 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:53:27 [ERROR]: (node:9780) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:53:27 [ERROR]: (node:9780) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:53:27 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:53:28 [INFO]: Base de datos conectada
+2025-07-16 16:53:28 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:53:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:53:28 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:53:32 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:53:52 [ERROR]: (node:2660) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:53:52 [ERROR]: (node:2660) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:53:52 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:53:53 [INFO]: Base de datos conectada
+2025-07-16 16:53:53 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:53:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:53:53 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:53:57 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:54:01 [ERROR]: (node:12596) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:54:01 [ERROR]: (node:12596) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:54:01 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:54:01 [INFO]: Base de datos conectada
+2025-07-16 16:54:02 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:54:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:54:02 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:54:06 [INFO]: Base de Datos sincronizadas
+2025-07-16 16:54:40 [ERROR]: (node:14964) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 16:54:40 [ERROR]: (node:14964) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 16:54:40 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 16:54:40 [INFO]: Base de datos conectada
+2025-07-16 16:54:41 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 16:54:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 16:54:41 [INFO]: Conexión establecida con la base de datos
+2025-07-16 16:54:44 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:28:20 [ERROR]: (node:9504) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:28:20 [ERROR]: (node:9504) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:28:20 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:28:21 [INFO]: Base de datos conectada
+2025-07-16 17:28:21 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:28:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:28:21 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:28:25 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:31:38 [ERROR]: (node:14064) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:31:38 [ERROR]: (node:14064) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:31:38 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:31:38 [INFO]: Base de datos conectada
+2025-07-16 17:31:38 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:31:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:31:39 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:31:42 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:32:22 [ERROR]: (node:2664) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:32:22 [ERROR]: (node:2664) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:32:23 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:32:23 [INFO]: Base de datos conectada
+2025-07-16 17:32:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:32:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:32:23 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:32:27 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:33:25 [ERROR]: (node:13896) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:33:25 [ERROR]: (node:13896) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:33:25 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:33:25 [INFO]: Base de datos conectada
+2025-07-16 17:33:25 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:33:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:33:26 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:33:32 [ERROR]: (node:13220) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:33:32 [ERROR]: (node:13220) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:33:32 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:33:32 [INFO]: Base de datos conectada
+2025-07-16 17:33:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:33:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:33:33 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:33:36 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:36:25 [ERROR]: (node:14716) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:36:25 [ERROR]: (node:14716) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:36:25 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:36:25 [INFO]: Base de datos conectada
+2025-07-16 17:36:26 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:36:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:36:26 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:36:38 [ERROR]: (node:17020) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:36:38 [ERROR]: (node:17020) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:36:38 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:36:38 [INFO]: Base de datos conectada
+2025-07-16 17:36:39 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:36:39 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:36:39 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:36:42 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:37:56 [ERROR]: (node:7564) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:37:56 [ERROR]: (node:7564) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:37:56 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:37:56 [INFO]: Base de datos conectada
+2025-07-16 17:37:57 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:37:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:37:57 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:38:04 [ERROR]: (node:16468) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:38:04 [ERROR]: (node:16468) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:38:04 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:38:04 [INFO]: Base de datos conectada
+2025-07-16 17:38:05 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:38:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:38:05 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:38:08 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:39:24 [ERROR]: (node:5584) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:39:24 [ERROR]: (node:5584) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:39:24 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:39:24 [INFO]: Base de datos conectada
+2025-07-16 17:39:24 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:39:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:39:25 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:39:28 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:40:50 [ERROR]: (node:4336) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:40:50 [ERROR]: (node:4336) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:40:50 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:40:50 [INFO]: Base de datos conectada
+2025-07-16 17:40:50 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:40:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:40:51 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:40:54 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:41:42 [ERROR]: (node:14720) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:41:42 [ERROR]: (node:14720) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:41:42 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:41:42 [INFO]: Base de datos conectada
+2025-07-16 17:41:43 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:41:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:41:43 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:41:47 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:42:10 [ERROR]: (node:6180) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:42:10 [ERROR]: (node:6180) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:42:10 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:42:11 [INFO]: Base de datos conectada
+2025-07-16 17:42:11 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:42:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:42:11 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:42:15 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:42:28 [ERROR]: (node:5476) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:42:28 [ERROR]: (node:5476) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:42:28 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:42:28 [INFO]: Base de datos conectada
+2025-07-16 17:42:28 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:42:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:42:29 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:42:32 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:42:57 [ERROR]: (node:8852) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:42:57 [ERROR]: (node:8852) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:42:57 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:42:57 [INFO]: Base de datos conectada
+2025-07-16 17:42:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:42:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:42:58 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:43:02 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:43:06 [ERROR]: (node:16628) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:43:06 [ERROR]: (node:16628) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:43:06 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:43:06 [INFO]: Base de datos conectada
+2025-07-16 17:43:07 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:43:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:43:07 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:43:10 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:43:58 [ERROR]: (node:7104) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:43:58 [ERROR]: (node:7104) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:43:58 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:43:58 [INFO]: Base de datos conectada
+2025-07-16 17:43:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:43:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:43:59 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:44:02 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:44:19 [ERROR]: (node:6788) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:44:19 [ERROR]: (node:6788) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:44:19 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:44:19 [INFO]: Base de datos conectada
+2025-07-16 17:44:20 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:44:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:44:20 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:44:24 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:44:41 [ERROR]: (node:1136) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:44:41 [ERROR]: (node:1136) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:44:41 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:44:41 [INFO]: Base de datos conectada
+2025-07-16 17:44:42 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:44:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:44:42 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:44:46 [INFO]: Base de Datos sincronizadas
+2025-07-16 17:45:23 [ERROR]: (node:12076) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 17:45:23 [ERROR]: (node:12076) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 17:45:23 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 17:45:23 [INFO]: Base de datos conectada
+2025-07-16 17:45:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 17:45:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 17:45:24 [INFO]: Conexión establecida con la base de datos
+2025-07-16 17:45:27 [INFO]: Base de Datos sincronizadas
+2025-07-16 18:09:21 [ERROR]: (node:13424) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 18:09:21 [ERROR]: (node:13424) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 18:09:21 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 18:09:22 [INFO]: Base de datos conectada
+2025-07-16 18:09:22 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 18:09:22 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 18:09:22 [INFO]: Conexión establecida con la base de datos
+2025-07-16 18:09:26 [INFO]: Base de Datos sincronizadas
+2025-07-16 18:14:23 [ERROR]: (node:3216) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 18:14:23 [ERROR]: (node:3216) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 18:14:23 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 18:14:23 [INFO]: Base de datos conectada
+2025-07-16 18:14:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 18:14:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 18:14:24 [INFO]: Conexión establecida con la base de datos
+2025-07-16 18:14:27 [INFO]: Base de Datos sincronizadas
+2025-07-16 19:11:40 [ERROR]: (node:6904) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:11:40 [ERROR]: (node:6904) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:11:40 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:11:40 [INFO]: Base de datos conectada
+2025-07-16 19:11:41 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:11:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:11:41 [INFO]: Conexión establecida con la base de datos
+2025-07-16 19:11:50 [INFO]: Base de Datos sincronizadas
+2025-07-16 19:12:19 [ERROR]: (node:1864) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:12:20 [ERROR]: (node:1864) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:12:20 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:12:20 [INFO]: Base de datos conectada
+2025-07-16 19:12:20 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:12:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:12:20 [INFO]: Conexión establecida con la base de datos
+2025-07-16 19:12:40 [ERROR]: (node:7316) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:12:40 [ERROR]: (node:7316) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:12:40 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:12:40 [INFO]: Base de datos conectada
+2025-07-16 19:12:41 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:12:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:12:41 [INFO]: Conexión establecida con la base de datos
+2025-07-16 19:13:44 [ERROR]: (node:7260) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:13:44 [ERROR]: (node:7260) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:13:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:13:44 [INFO]: Base de datos conectada
+2025-07-16 19:13:45 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:13:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:13:45 [INFO]: Conexión establecida con la base de datos
+2025-07-16 19:14:08 [INFO]: Base de Datos sincronizadas
+2025-07-16 19:15:00 [ERROR]: (node:12124) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:15:00 [ERROR]: (node:12124) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:15:00 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:15:00 [INFO]: Base de datos conectada
+2025-07-16 19:15:00 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:15:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:15:01 [INFO]: Conexión establecida con la base de datos
+2025-07-16 19:15:24 [INFO]: Base de Datos sincronizadas
+2025-07-16 19:34:30 [ERROR]: (node:2252) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:34:30 [ERROR]: (node:2252) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:34:30 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:34:30 [ERROR]: Error inesperado: Access denied for user 'linkear'@'%' to database 'gym_db'
+2025-07-16 19:34:30 [ERROR]: No se pudo conectar a la base de datos: Access denied for user 'linkear'@'%' to database 'gym_db'
+2025-07-16 19:34:30 [ERROR]: Error al sincronizar la Base de Datos: SequelizeConnectionError: Access denied for user 'linkear'@'%' to database 'gym_db'
+2025-07-16 19:34:30 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:34:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:35:36 [ERROR]: (node:10248) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 19:35:36 [ERROR]: (node:10248) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 19:35:36 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 19:35:36 [INFO]: Base de datos conectada
+2025-07-16 19:35:37 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 19:35:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 19:35:37 [INFO]: Conexión establecida con la base de datos
+2025-07-16 19:36:00 [INFO]: Base de Datos sincronizadas
+2025-07-16 20:31:31 [ERROR]: (node:1872) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 20:31:31 [ERROR]: (node:1872) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 20:31:31 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 20:31:31 [INFO]: Base de datos conectada
+2025-07-16 20:31:31 [INFO]: Conexión establecida con la base de datos
+2025-07-16 20:31:31 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 20:31:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 20:31:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:22:20 [ERROR]: (node:12284) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:22:20 [ERROR]: (node:12284) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:22:20 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:22:20 [INFO]: Base de datos conectada
+2025-07-16 21:22:20 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:22:20 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:22:20 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:22:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:23:53 [ERROR]: (node:2536) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:23:53 [ERROR]: (node:2536) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:23:53 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:23:53 [INFO]: Base de datos conectada
+2025-07-16 21:23:54 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:23:54 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:23:54 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:23:54 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:25:16 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-16 21:25:31 [ERROR]: (node:15892) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:25:31 [ERROR]: (node:15892) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:25:31 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:25:31 [INFO]: Base de datos conectada
+2025-07-16 21:25:31 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:25:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:25:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:25:32 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:43:44 [ERROR]: (node:6892) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:43:44 [ERROR]: (node:6892) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:43:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:43:44 [INFO]: Base de datos conectada
+2025-07-16 21:43:44 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:43:44 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:43:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:43:44 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:44:25 [ERROR]: (node:14896) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:44:25 [ERROR]: (node:14896) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:44:25 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:44:25 [INFO]: Base de datos conectada
+2025-07-16 21:44:25 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:44:25 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:44:25 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:44:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:44:35 [ERROR]: (node:16900) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:44:35 [ERROR]: (node:16900) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:44:35 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:44:35 [INFO]: Base de datos conectada
+2025-07-16 21:44:36 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:44:36 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:44:36 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:44:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:45:08 [ERROR]: (node:7648) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:45:08 [ERROR]: (node:7648) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:45:08 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:45:08 [INFO]: Base de datos conectada
+2025-07-16 21:45:09 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:45:09 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:45:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:45:09 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:45:25 [ERROR]: (node:4008) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:45:25 [ERROR]: (node:4008) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:45:25 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:45:25 [INFO]: Base de datos conectada
+2025-07-16 21:45:25 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:45:26 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:45:26 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:45:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:45:43 [ERROR]: (node:9836) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:45:43 [ERROR]: (node:9836) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:45:43 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:45:43 [INFO]: Base de datos conectada
+2025-07-16 21:45:43 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:45:43 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:45:44 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:45:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:46:22 [ERROR]: (node:4596) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:46:22 [ERROR]: (node:4596) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:46:22 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:46:22 [INFO]: Base de datos conectada
+2025-07-16 21:46:22 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:46:23 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:46:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:46:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:49:44 [ERROR]: (node:13344) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:49:44 [ERROR]: (node:13344) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:49:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:49:44 [INFO]: Base de datos conectada
+2025-07-16 21:49:45 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:49:45 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:49:46 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:49:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:51:59 [ERROR]: (node:4008) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:51:59 [ERROR]: (node:4008) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:51:59 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:51:59 [INFO]: Base de datos conectada
+2025-07-16 21:51:59 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:51:59 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:52:00 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:52:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:52:16 [ERROR]: (node:796) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:52:16 [ERROR]: (node:796) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:52:16 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:52:16 [INFO]: Base de datos conectada
+2025-07-16 21:52:16 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:52:16 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:52:16 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:52:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:52:38 [ERROR]: (node:16592) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:52:38 [ERROR]: (node:16592) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:52:38 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:52:38 [INFO]: Base de datos conectada
+2025-07-16 21:52:38 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:52:38 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:52:39 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:52:39 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:52:57 [ERROR]: (node:3876) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:52:57 [ERROR]: (node:3876) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:52:57 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:52:57 [INFO]: Base de datos conectada
+2025-07-16 21:52:57 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:52:58 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:52:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:52:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:53:50 [ERROR]: (node:2476) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:53:50 [ERROR]: (node:2476) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:53:50 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:53:50 [INFO]: Base de datos conectada
+2025-07-16 21:53:51 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:53:51 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:53:51 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:53:51 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:54:05 [ERROR]: (node:8540) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:54:05 [ERROR]: (node:8540) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:54:05 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:54:05 [INFO]: Base de datos conectada
+2025-07-16 21:54:05 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:54:05 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:54:06 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:54:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:54:21 [ERROR]: (node:2556) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:54:21 [ERROR]: (node:2556) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:54:21 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:54:21 [INFO]: Base de datos conectada
+2025-07-16 21:54:21 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:54:21 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:54:21 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:54:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:54:29 [ERROR]: (node:15736) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:54:29 [ERROR]: (node:15736) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:54:29 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:54:29 [INFO]: Base de datos conectada
+2025-07-16 21:54:29 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:54:29 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:54:30 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:54:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:54:47 [ERROR]: (node:3512) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:54:47 [ERROR]: (node:3512) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:54:47 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:54:47 [INFO]: Base de datos conectada
+2025-07-16 21:54:47 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:54:47 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:54:48 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:54:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:55:06 [ERROR]: (node:11428) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:55:06 [ERROR]: (node:11428) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:55:06 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:55:06 [INFO]: Base de datos conectada
+2025-07-16 21:55:06 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:55:06 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:55:06 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:55:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:55:34 [ERROR]: (node:14316) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:55:34 [ERROR]: (node:14316) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:55:34 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:55:34 [INFO]: Base de datos conectada
+2025-07-16 21:55:34 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:55:34 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:55:35 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:55:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:56:10 [ERROR]: (node:5816) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:56:10 [ERROR]: (node:5816) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:56:10 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:56:10 [INFO]: Base de datos conectada
+2025-07-16 21:56:10 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:56:10 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:56:11 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:56:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:56:22 [ERROR]: (node:16448) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:56:22 [ERROR]: (node:16448) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:56:22 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:56:22 [INFO]: Base de datos conectada
+2025-07-16 21:56:22 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:56:22 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:56:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:56:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:56:47 [ERROR]: (node:9212) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:56:47 [ERROR]: (node:9212) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:56:47 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:56:47 [INFO]: Base de datos conectada
+2025-07-16 21:56:47 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:56:47 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:56:48 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:56:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:56:57 [ERROR]: (node:1724) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:56:57 [ERROR]: (node:1724) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:56:57 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:56:57 [INFO]: Base de datos conectada
+2025-07-16 21:56:57 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:56:57 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:56:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:56:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:57:18 [ERROR]: (node:4032) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:57:18 [ERROR]: (node:4032) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:57:18 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:57:18 [INFO]: Base de datos conectada
+2025-07-16 21:57:18 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:57:18 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:57:19 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:57:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 21:57:36 [ERROR]: (node:6148) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 21:57:36 [ERROR]: (node:6148) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 21:57:36 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 21:57:36 [INFO]: Base de datos conectada
+2025-07-16 21:57:36 [INFO]: Conexión establecida con la base de datos
+2025-07-16 21:57:36 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 21:57:37 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 21:57:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 22:01:43 [ERROR]: (node:17052) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 22:01:43 [ERROR]: (node:17052) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 22:01:43 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 22:01:43 [INFO]: Base de datos conectada
+2025-07-16 22:01:43 [INFO]: Conexión establecida con la base de datos
+2025-07-16 22:01:43 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 22:02:12 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-16 22:02:34 [ERROR]: (node:8424) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 22:02:34 [ERROR]: (node:8424) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 22:02:34 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 22:02:34 [INFO]: Base de datos conectada
+2025-07-16 22:02:34 [INFO]: Conexión establecida con la base de datos
+2025-07-16 22:02:34 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 22:03:04 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-16 22:03:08 [ERROR]: (node:9968) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 22:03:08 [ERROR]: (node:9968) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 22:03:08 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 22:03:08 [INFO]: Base de datos conectada
+2025-07-16 22:03:09 [INFO]: Conexión establecida con la base de datos
+2025-07-16 22:03:09 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 22:03:09 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 22:03:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 22:08:48 [ERROR]: (node:1520) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 22:08:48 [ERROR]: (node:1520) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 22:08:48 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 22:08:48 [INFO]: Base de datos conectada
+2025-07-16 22:08:48 [INFO]: Conexión establecida con la base de datos
+2025-07-16 22:08:49 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 22:08:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 22:08:49 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:08:49 [ERROR]: (node:12644) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:08:49 [ERROR]: (node:12644) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:08:49 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:08:49 [INFO]: Base de datos conectada
+2025-07-16 23:08:49 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:08:50 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:08:50 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:08:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:48:52 [ERROR]: (node:10716) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:48:52 [ERROR]: (node:10716) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:48:52 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:48:52 [INFO]: Base de datos conectada
+2025-07-16 23:48:53 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:48:53 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:48:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:48:53 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:50:35 [ERROR]: (node:12528) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:50:36 [ERROR]: (node:12528) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:50:36 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:50:36 [INFO]: Base de datos conectada
+2025-07-16 23:50:36 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:50:36 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:50:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:50:36 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:51:41 [ERROR]: (node:15764) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:51:41 [ERROR]: (node:15764) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:51:41 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:51:41 [INFO]: Base de datos conectada
+2025-07-16 23:51:41 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:51:41 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:51:42 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:51:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:52:05 [ERROR]: (node:14912) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:52:05 [ERROR]: (node:14912) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:52:05 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:52:05 [INFO]: Base de datos conectada
+2025-07-16 23:52:05 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:52:05 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:52:06 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:52:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:52:54 [ERROR]: (node:16268) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:52:54 [ERROR]: (node:16268) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:52:54 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:52:54 [INFO]: Base de datos conectada
+2025-07-16 23:52:54 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:52:54 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:52:54 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:52:54 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:53:13 [ERROR]: (node:16572) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:53:13 [ERROR]: (node:16572) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:53:13 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:53:13 [INFO]: Base de datos conectada
+2025-07-16 23:53:13 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:53:13 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:53:13 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:53:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:53:23 [ERROR]: (node:10720) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:53:24 [ERROR]: (node:10720) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:53:24 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:53:24 [INFO]: Base de datos conectada
+2025-07-16 23:53:24 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:53:24 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:53:46 [ERROR]: (node:15660) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:53:46 [ERROR]: (node:15660) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:53:46 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:53:47 [INFO]: Base de datos conectada
+2025-07-16 23:53:47 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:53:47 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:53:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:53:47 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:54:35 [ERROR]: (node:13448) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:54:35 [ERROR]: (node:13448) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:54:35 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:54:35 [INFO]: Base de datos conectada
+2025-07-16 23:54:35 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:54:35 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:54:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:54:35 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:54:46 [ERROR]: (node:7776) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:54:46 [ERROR]: (node:7776) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:54:46 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:54:46 [INFO]: Base de datos conectada
+2025-07-16 23:54:53 [ERROR]: (node:4336) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:54:53 [ERROR]: (node:4336) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:54:53 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:54:53 [INFO]: Base de datos conectada
+2025-07-16 23:54:54 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:54:54 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:54:54 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:54:54 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:55:07 [ERROR]: (node:4372) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:55:07 [ERROR]: (node:4372) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:55:07 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:55:07 [INFO]: Base de datos conectada
+2025-07-16 23:55:07 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:55:07 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:55:07 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:55:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:55:19 [ERROR]: (node:8184) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:55:19 [ERROR]: (node:8184) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:55:19 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:55:19 [INFO]: Base de datos conectada
+2025-07-16 23:55:19 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:55:19 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:55:19 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:55:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:55:28 [ERROR]: (node:12380) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:55:28 [ERROR]: (node:12380) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:55:28 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:55:28 [INFO]: Base de datos conectada
+2025-07-16 23:55:28 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:55:28 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:55:28 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:55:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:55:38 [ERROR]: (node:15200) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:55:38 [ERROR]: (node:15200) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:55:38 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:55:38 [INFO]: Base de datos conectada
+2025-07-16 23:55:38 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:55:38 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:55:38 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:55:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 23:55:44 [ERROR]: (node:8732) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-16 23:55:44 [ERROR]: (node:8732) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-16 23:55:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-16 23:55:44 [INFO]: Base de datos conectada
+2025-07-16 23:55:44 [INFO]: Conexión establecida con la base de datos
+2025-07-16 23:55:44 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-16 23:55:45 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-16 23:55:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:06:01 [ERROR]: (node:8652) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:06:01 [ERROR]: (node:8652) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:06:01 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:06:01 [INFO]: Base de datos conectada
+2025-07-17 00:06:01 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:06:01 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:06:01 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:06:01 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:40:08 [ERROR]: (node:14732) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:40:08 [ERROR]: (node:14732) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:40:08 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:40:08 [INFO]: Base de datos conectada
+2025-07-17 00:40:08 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:40:08 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:40:09 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:40:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:52:18 [ERROR]: (node:13232) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:52:18 [ERROR]: (node:13232) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:52:18 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:52:18 [INFO]: Base de datos conectada
+2025-07-17 00:52:18 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:52:18 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:52:19 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:52:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:53:01 [ERROR]: (node:13860) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:53:01 [ERROR]: (node:13860) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:53:01 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:53:01 [INFO]: Base de datos conectada
+2025-07-17 00:53:01 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:53:02 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:53:02 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:53:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:54:01 [ERROR]: (node:8424) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:54:01 [ERROR]: (node:8424) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:54:01 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:54:01 [INFO]: Base de datos conectada
+2025-07-17 00:54:01 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:54:01 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:54:02 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:54:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:55:57 [ERROR]: (node:12984) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:55:57 [ERROR]: (node:12984) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:55:57 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:55:57 [INFO]: Base de datos conectada
+2025-07-17 00:55:57 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:55:57 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:55:57 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:55:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:58:32 [ERROR]: (node:14076) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:58:32 [ERROR]: (node:14076) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:58:32 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:58:32 [INFO]: Base de datos conectada
+2025-07-17 00:58:32 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:58:32 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:58:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:58:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 00:59:10 [ERROR]: (node:9248) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 00:59:10 [ERROR]: (node:9248) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 00:59:10 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 00:59:11 [INFO]: Base de datos conectada
+2025-07-17 00:59:11 [INFO]: Conexión establecida con la base de datos
+2025-07-17 00:59:11 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 00:59:11 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 00:59:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:00:42 [ERROR]: (node:11724) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:00:42 [ERROR]: (node:11724) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:00:42 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:00:42 [INFO]: Base de datos conectada
+2025-07-17 01:00:42 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:00:42 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:00:43 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:00:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:01:28 [ERROR]: (node:12320) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:01:28 [ERROR]: (node:12320) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:01:28 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:01:28 [INFO]: Base de datos conectada
+2025-07-17 01:01:28 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:01:29 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:01:29 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:01:29 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:01:44 [ERROR]: (node:10372) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:01:44 [ERROR]: (node:10372) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:01:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:01:44 [INFO]: Base de datos conectada
+2025-07-17 01:01:44 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:01:44 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:01:44 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:01:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:02:22 [ERROR]: (node:16552) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:02:22 [ERROR]: (node:16552) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:02:22 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:02:22 [INFO]: Base de datos conectada
+2025-07-17 01:02:22 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:02:22 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:02:22 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:02:23 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:03:10 [ERROR]: (node:14380) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:03:10 [ERROR]: (node:14380) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:03:10 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:03:10 [INFO]: Base de datos conectada
+2025-07-17 01:03:10 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:03:10 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:03:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:03:11 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:04:01 [ERROR]: (node:3288) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:04:01 [ERROR]: (node:3288) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:04:01 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:04:01 [INFO]: Base de datos conectada
+2025-07-17 01:04:01 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:04:01 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:04:01 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:04:01 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:04:45 [ERROR]: (node:10088) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:04:45 [ERROR]: (node:10088) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:04:45 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:04:46 [INFO]: Base de datos conectada
+2025-07-17 01:04:46 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:04:46 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:04:46 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:04:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:05:35 [ERROR]: (node:1348) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:05:35 [ERROR]: (node:1348) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:05:35 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:05:35 [INFO]: Base de datos conectada
+2025-07-17 01:05:35 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:05:35 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:05:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:05:36 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:06:14 [ERROR]: (node:14024) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:06:14 [ERROR]: (node:14024) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:06:14 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:06:14 [INFO]: Base de datos conectada
+2025-07-17 01:06:14 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:06:14 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:06:15 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:06:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:06:51 [ERROR]: (node:14180) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:06:51 [ERROR]: (node:14180) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:06:51 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:06:52 [INFO]: Base de datos conectada
+2025-07-17 01:06:52 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:06:53 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:06:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:06:54 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:07:29 [ERROR]: (node:10412) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:07:29 [ERROR]: (node:10412) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:07:29 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:07:29 [INFO]: Base de datos conectada
+2025-07-17 01:07:30 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:07:30 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:07:30 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:07:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:08:27 [ERROR]: (node:6108) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:08:27 [ERROR]: (node:6108) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:08:27 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:08:27 [INFO]: Base de datos conectada
+2025-07-17 01:08:27 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:08:27 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:08:27 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:08:27 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:09:17 [ERROR]: (node:14224) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:09:17 [ERROR]: (node:14224) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:09:17 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:09:17 [INFO]: Base de datos conectada
+2025-07-17 01:09:17 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:09:17 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:09:18 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:09:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:10:05 [ERROR]: (node:10740) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:10:05 [ERROR]: (node:10740) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:10:05 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:10:05 [INFO]: Base de datos conectada
+2025-07-17 01:10:05 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:10:05 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:10:05 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:10:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:10:44 [ERROR]: (node:13884) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:10:44 [ERROR]: (node:13884) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:10:44 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:10:44 [INFO]: Base de datos conectada
+2025-07-17 01:10:44 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:10:44 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:10:44 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:10:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:10:49 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-17 01:11:52 [ERROR]: (node:4492) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:11:52 [ERROR]: (node:4492) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:11:52 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:11:52 [INFO]: Base de datos conectada
+2025-07-17 01:11:52 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:11:52 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:11:52 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:11:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:16:18 [ERROR]: (node:3216) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:16:18 [ERROR]: (node:3216) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:16:18 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:16:18 [INFO]: Base de datos conectada
+2025-07-17 01:16:18 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:16:18 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:16:18 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:16:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:23:02 [ERROR]: (node:12588) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:23:02 [ERROR]: (node:12588) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:23:02 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:23:02 [INFO]: Base de datos conectada
+2025-07-17 01:23:02 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:23:02 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:23:02 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:23:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 01:24:06 [ERROR]: (node:14860) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 01:24:06 [ERROR]: (node:14860) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 01:24:06 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 01:24:06 [INFO]: Base de datos conectada
+2025-07-17 01:24:06 [INFO]: Conexión establecida con la base de datos
+2025-07-17 01:24:06 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 01:24:06 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 01:24:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:58:40 [ERROR]: (node:10364) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 11:58:40 [ERROR]: (node:10364) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 11:58:41 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 11:58:41 [ERROR]: La conexión a la base de datos fue rechazada
+2025-07-17 11:58:41 [ERROR]: No se pudo conectar a la base de datos: 
+2025-07-17 11:58:41 [ERROR]: Error al sincronizar la Base de Datos: SequelizeConnectionRefusedError
+2025-07-17 11:58:41 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 11:58:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:59:45 [ERROR]: (node:13772) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 11:59:45 [ERROR]: (node:13772) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 11:59:45 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 11:59:45 [INFO]: Base de datos conectada
+2025-07-17 11:59:45 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:59:45 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 11:59:46 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 11:59:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:32:59 [ERROR]: (node:8896) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 12:32:59 [ERROR]: (node:8896) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 12:32:59 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 12:32:59 [INFO]: Base de datos conectada
+2025-07-17 12:32:59 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:32:59 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 12:32:59 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 12:32:59 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:34:05 [ERROR]: (node:16588) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 12:34:05 [ERROR]: (node:16588) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 12:34:05 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 12:34:05 [INFO]: Base de datos conectada
+2025-07-17 12:34:05 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:34:05 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 12:34:05 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 12:34:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:36:01 [ERROR]: (node:16024) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 12:36:01 [ERROR]: (node:16024) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 12:36:01 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 12:36:02 [INFO]: Base de datos conectada
+2025-07-17 12:36:02 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:36:02 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 12:36:02 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 12:36:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:37:26 [ERROR]: (node:3516) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 12:37:26 [ERROR]: (node:3516) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 12:37:26 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 12:37:26 [INFO]: Base de datos conectada
+2025-07-17 12:37:26 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:37:27 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 12:37:27 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 12:37:27 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:39 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-17 12:38:47 [ERROR]: (node:5972) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 12:38:47 [ERROR]: (node:5972) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 12:38:47 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 12:38:47 [INFO]: Base de datos conectada
+2025-07-17 12:38:47 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:38:47 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2025-07-17 12:38:47 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 12:38:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:48:32 [ERROR]: (node:4000) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 12:48:32 [ERROR]: (node:4000) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 12:48:32 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 12:48:32 [INFO]: Base de datos conectada
+2025-07-17 12:48:32 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:48:33 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 12:48:33 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:48:45 [INFO]: Base de Datos sincronizadas
+2025-07-17 13:04:13 [ERROR]: (node:7840) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 13:04:13 [ERROR]: (node:7840) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 13:04:13 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 13:04:13 [INFO]: Base de datos conectada
+2025-07-17 13:04:13 [INFO]: Conexión establecida con la base de datos
+2025-07-17 13:04:13 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 13:04:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:04:18 [INFO]: Base de Datos sincronizadas
+2025-07-17 13:04:59 [ERROR]: (node:6576) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 13:04:59 [ERROR]: (node:6576) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 13:04:59 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 13:04:59 [INFO]: Base de datos conectada
+2025-07-17 13:04:59 [INFO]: Conexión establecida con la base de datos
+2025-07-17 13:05:00 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 13:05:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:05:03 [INFO]: Base de Datos sincronizadas
+2025-07-17 13:06:05 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-17 13:06:16 [ERROR]: (node:5556) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 13:06:16 [ERROR]: (node:5556) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 13:06:16 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 13:06:16 [INFO]: Base de datos conectada
+2025-07-17 13:06:16 [INFO]: Conexión establecida con la base de datos
+2025-07-17 13:06:16 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 13:06:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:06:23 [INFO]: Base de Datos sincronizadas
+2025-07-17 13:07:06 [ERROR]: (node:5820) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 13:07:06 [ERROR]: (node:5820) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 13:07:06 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 13:07:06 [INFO]: Base de datos conectada
+2025-07-17 13:07:06 [INFO]: Conexión establecida con la base de datos
+2025-07-17 13:07:07 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 13:07:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:07:40 [ERROR]: (node:344) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 13:07:40 [ERROR]: (node:344) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 13:07:40 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 13:07:40 [INFO]: Base de datos conectada
+2025-07-17 13:07:40 [INFO]: Conexión establecida con la base de datos
+2025-07-17 13:07:40 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 13:07:40 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:07:44 [INFO]: Base de Datos sincronizadas
+2025-07-17 14:02:16 [INFO]: [0mGET / [32m200[0m 275.356 ms - 12[0m
+2025-07-17 14:02:16 [WARN]: Server too busy!
+2025-07-17 14:02:16 [INFO]: [0mGET /favicon.ico [31m503[0m 8.058 ms - 52[0m
+2025-07-17 15:21:32 [ERROR]: (node:1348) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 15:21:32 [ERROR]: (node:1348) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 15:21:32 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 15:21:32 [INFO]: Base de datos conectada
+2025-07-17 15:21:32 [INFO]: Conexión establecida con la base de datos
+2025-07-17 15:21:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 15:21:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 15:21:34 [INFO]: Base de Datos sincronizadas
+2025-07-17 15:21:45 [ERROR]: (node:6448) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-17 15:21:45 [ERROR]: (node:6448) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-17 15:21:45 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-17 15:21:45 [INFO]: Base de datos conectada
+2025-07-17 15:21:45 [INFO]: Conexión establecida con la base de datos
+2025-07-17 15:21:45 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-17 15:21:45 [INFO]: 🚀 MongoDB conectado correctamente
